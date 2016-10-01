@@ -26,7 +26,7 @@ public class page1 extends AppCompatActivity {
     }
 
     public void clickopen11() {
-        open11=(Button)findViewById(R.id.bopen11);
+        open11=(Button)findViewById(R.id.bopen111);
         open11.setOnClickListener(
                 new View.OnClickListener(){
                     @Override
