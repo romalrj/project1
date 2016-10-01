@@ -50,6 +50,34 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".page111">
+            <intent-filter>
+                <action android:name="rj.kill_boredom.page111" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".page112">
+            <intent-filter>
+                <action android:name="rj.kill_boredom.page112" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".page121">
+            <intent-filter>
+                <action android:name="rj.kill_boredom.page121" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".page122">
+            <intent-filter>
+                <action android:name="rj.kill_boredom.page122" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

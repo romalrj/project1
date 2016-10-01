@@ -15,7 +15,7 @@
         android:text="sudoku 4X4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button"
+        android:id="@+id/bopen121"
         android:layout_marginTop="51dp"
         android:layout_below="@+id/editText2"
         android:layout_centerHorizontal="true" />
@@ -38,17 +38,18 @@
         android:text="Sudoku 10x10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button2"
+        android:id="@+id/bopen122"
         android:layout_marginTop="21dp"
-        android:layout_below="@+id/button"
+        android:layout_below="@+id/bopen121"
         android:layout_centerHorizontal="true" />
 
     <Button
         android:text="tic tac toe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button3"
+        android:id="@+id/bopen123"
         android:layout_marginTop="18dp"
-        android:layout_below="@+id/button2"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/bopen122"
+        android:layout_alignRight="@+id/bopen121"
+        android:layout_alignEnd="@+id/bopen121" />
 </RelativeLayout>
