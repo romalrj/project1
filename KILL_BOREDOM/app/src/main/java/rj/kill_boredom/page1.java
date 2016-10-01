@@ -19,6 +19,10 @@ public class page1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page1);
         clickopen11();
+        clickopen12();
+        clickopen13();
+        clickopen14();
+        clickopen15();
     }
 
     public void clickopen11() {
@@ -28,6 +32,58 @@ public class page1 extends AppCompatActivity {
                     @Override
                     public void onClick(View v){
                         Intent change= new Intent("rj.kill_boredom.page11");
+                        startActivity(change);
+                    }
+                }
+        );
+    }
+
+    public void clickopen12() {
+        open12=(Button)findViewById(R.id.bopen12);
+        open12.setOnClickListener(
+                new View.OnClickListener(){
+                    @Override
+                    public void onClick(View v){
+                        Intent change= new Intent("rj.kill_boredom.page12");
+                        startActivity(change);
+                    }
+                }
+        );
+    }
+
+    public void clickopen13() {
+        open13=(Button)findViewById(R.id.bopen13);
+        open13.setOnClickListener(
+                new View.OnClickListener(){
+                    @Override
+                    public void onClick(View v){
+                        Intent change= new Intent("rj.kill_boredom.page13");
+                        startActivity(change);
+                    }
+                }
+        );
+    }
+
+    public void clickopen14() {
+        open14=(Button)findViewById(R.id.bopen14);
+        open14.setOnClickListener(
+                new View.OnClickListener(){
+                    @Override
+                    public void onClick(View v){
+                        Intent change= new Intent("rj.kill_boredom.page14");
+                        startActivity(change);
+                    }
+                }
+        );
+    }
+
+    public void clickopen15() {
+        open15=(Button)findViewById(R.id.bopen15);
+        open15.setOnClickListener(
+                new View.OnClickListener(){
+                    @Override
+                    public void onClick(View v){
+                        Intent change= new Intent("rj.kill_boredom.page15");
                         startActivity(change);
                     }
                 }
