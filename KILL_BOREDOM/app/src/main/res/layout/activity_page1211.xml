@@ -43,26 +43,13 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/n13"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:layout_below="@+id/n12"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="43dp"
-        android:hint="0" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:ems="10"
         android:id="@+id/n22"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:layout_alignBaseline="@+id/n12"
         android:layout_alignBottom="@+id/n12"
         android:layout_alignLeft="@+id/n21"
         android:layout_alignStart="@+id/n21"
-        android:hint="0"
+        android:hint="_"
         android:layout_toLeftOf="@+id/result"
         android:layout_toStartOf="@+id/result" />
 
@@ -114,7 +101,7 @@
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/result"
         android:layout_toEndOf="@+id/result"
-        android:hint="0" />
+        android:hint="_" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -140,7 +127,7 @@
         android:layout_alignBottom="@+id/n12"
         android:layout_alignLeft="@+id/n31"
         android:layout_alignStart="@+id/n31"
-        android:hint="0"
+        android:hint="_"
         android:layout_toLeftOf="@+id/n41"
         android:layout_toStartOf="@+id/n41" />
 
@@ -155,7 +142,7 @@
         android:layout_alignBottom="@+id/n13"
         android:layout_alignLeft="@+id/n32"
         android:layout_alignStart="@+id/n32"
-        android:hint="0" />
+        android:hint="_" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -194,7 +181,7 @@
         android:layout_alignBottom="@+id/n14"
         android:layout_alignLeft="@+id/n43"
         android:layout_alignStart="@+id/n43"
-        android:hint="0" />
+        android:hint="_" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -204,7 +191,7 @@
         android:id="@+id/n14"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:layout_marginBottom="48dp"
-        android:hint="0"
+        android:hint="_"
         android:layout_above="@+id/result"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -232,7 +219,7 @@
         android:ems="10"
         android:id="@+id/n11"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:hint="0"
+        android:hint="_"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -248,5 +235,21 @@
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="oncheckClick" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/n13"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:hint="_"
+        android:layout_marginBottom="37dp"
+        android:layout_above="@+id/n24"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/n22"
+        android:layout_alignEnd="@+id/n22" />
 </RelativeLayout>
