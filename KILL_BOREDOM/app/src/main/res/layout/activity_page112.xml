@@ -8,6 +8,54 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="rj.kill_boredom.page112">
+    tools:context="rj.kill_boredom.page112"
+    android:background="#1c213f">
 
+    <CheckBox
+        android:text="LEARN PYTHON"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp"
+        android:id="@+id/checkBox9"
+        android:background="@color/FF1C213F"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <CheckBox
+        android:text="LEARN TO MEDITATE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp"
+        android:id="@+id/checkBox10"
+        android:background="@color/FF1C213F"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <CheckBox
+        android:text="THINK MORE ABOUT THE  CAR STARTUP IDEA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp"
+        android:id="@+id/checkBox11"
+        android:background="@color/FF1C213F"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <CheckBox
+        android:text="CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp"
+        android:id="@+id/checkBox12"
+        android:background="@color/FF1C213F"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 </RelativeLayout>
