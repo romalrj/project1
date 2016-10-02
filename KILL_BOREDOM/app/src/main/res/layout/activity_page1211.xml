@@ -72,7 +72,7 @@
         android:inputType="number"
         android:ems="10"
         android:id="@+id/n24"
-        android:text="1"
+        android:text="2"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:layout_alignBaseline="@+id/n14"
         android:layout_alignBottom="@+id/n14"
