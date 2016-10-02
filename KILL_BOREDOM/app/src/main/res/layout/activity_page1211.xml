@@ -246,7 +246,6 @@
         android:layout_marginLeft="28dp"
         android:layout_marginStart="28dp"
         android:id="@+id/button"
-        android:onClick="oncheckClick (page1211)"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

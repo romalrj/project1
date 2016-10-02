@@ -8,6 +8,9 @@ import android.widget.TextView;
 
 public class page1211 extends AppCompatActivity {
 
+    EditText startPort, stopPort;
+    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
