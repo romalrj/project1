@@ -11,17 +11,6 @@
     tools:context="rj.kill_boredom.page1211"
     android:background="@color/colorAccent">
 
-    <Button
-        android:text="Check !"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="27dp"
-        android:layout_marginStart="27dp"
-        android:id="@+id/button"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
     <TextView
         android:text="result"
         android:layout_width="wrap_content"
@@ -249,4 +238,16 @@
         android:layout_alignParentStart="true"
         android:layout_toLeftOf="@+id/n22"
         android:layout_toStartOf="@+id/n22" />
+
+    <Button
+        android:text="Check !"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/button"
+        android:onClick="oncheckClick (page1211)"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

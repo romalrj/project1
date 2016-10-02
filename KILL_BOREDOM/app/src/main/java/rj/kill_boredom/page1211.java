@@ -22,7 +22,7 @@ public class page1211 extends AppCompatActivity {
         EditText n13 = (EditText)findViewById(R.id.n13);
         EditText n14 = (EditText)findViewById(R.id.n14);
         EditText n21 = (EditText)findViewById(R.id.n21);
-        EditText n22 = (EditText)findViewById(R.id.n22);
+        /*EditText n22 = (EditText)findViewById(R.id.n22);
         EditText n23 = (EditText)findViewById(R.id.n23);
         EditText n24 = (EditText)findViewById(R.id.n24);
         EditText n31 = (EditText)findViewById(R.id.n31);
@@ -32,7 +32,7 @@ public class page1211 extends AppCompatActivity {
         EditText n41 = (EditText)findViewById(R.id.n41);
         EditText n42 = (EditText)findViewById(R.id.n42);
         EditText n43 = (EditText)findViewById(R.id.n43);
-        EditText n44 = (EditText)findViewById(R.id.n44);
+        EditText n44 = (EditText)findViewById(R.id.n44); */
 
         TextView t1 = (TextView)findViewById(R.id.result);
 
@@ -41,7 +41,7 @@ public class page1211 extends AppCompatActivity {
         int a13 = Integer.parseInt(n13.getText().toString());
         int a14 = Integer.parseInt(n14.getText().toString());
         int a21 = Integer.parseInt(n21.getText().toString());
-        int a22 = Integer.parseInt(n22.getText().toString());
+       /* int a22 = Integer.parseInt(n22.getText().toString());
         int a23 = Integer.parseInt(n23.getText().toString());
         int a24 = Integer.parseInt(n24.getText().toString());
         int a31 = Integer.parseInt(n31.getText().toString());
@@ -54,12 +54,8 @@ public class page1211 extends AppCompatActivity {
         int a44 = Integer.parseInt(n44.getText().toString());
 
 
-
-        if ((a11==4)&&(a21==1)){
-
-            //t1.setText("aa aa");
-        }
-
+        */
+        t1.setText("aa aa");
 
         //t1.setText(Integer.toString(sum));
 
