@@ -26,12 +26,14 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="Keep Coding !"
+        android:text="Ultimate elevator hack. To go directly to your floor, press and hold the CLOSE button before the doors close. Press and hold the button for your floor while still pressing the button. When the elevator starts to move, release the buttons. You will pass all other floors."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
         android:id="@+id/textView2"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="@android:color/holo_orange_dark" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/editText4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="77dp" />
 </RelativeLayout>

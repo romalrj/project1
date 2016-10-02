@@ -12,6 +12,7 @@ public class page1211 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page1211);
+        TextView t1 = (TextView)findViewById(R.id.result);
     }
 
 
@@ -35,25 +36,29 @@ public class page1211 extends AppCompatActivity {
 
         TextView t1 = (TextView)findViewById(R.id.result);
 
-        int[][] multi = new int[4][4];
-
-
         int a11 = Integer.parseInt(n11.getText().toString());
-        int a12 = Integer.parseInt(n1.getText().toString());
-        int a13 = Integer.parseInt(n1.getText().toString());
-        int a14 = Integer.parseInt(n1.getText().toString());
-        int a21 = Integer.parseInt(n1.getText().toString());
-        int a22 = Integer.parseInt(n1.getText().toString());
-        int a23 = Integer.parseInt(n1.getText().toString());
-        int a24 = Integer.parseInt(n1.getText().toString());
-        int a31 = Integer.parseInt(n1.getText().toString());
-        int a32 = Integer.parseInt(n1.getText().toString());
-        int a33 = Integer.parseInt(n1.getText().toString());
-        int a34 = Integer.parseInt(n1.getText().toString());
-        int a41 = Integer.parseInt(n1.getText().toString());
-        int a42 = Integer.parseInt(n1.getText().toString());
-        int a43 = Integer.parseInt(n1.getText().toString());
-        int a44 = Integer.parseInt(n1.getText().toString());
+        int a12 = Integer.parseInt(n12.getText().toString());
+        int a13 = Integer.parseInt(n13.getText().toString());
+        int a14 = Integer.parseInt(n14.getText().toString());
+        int a21 = Integer.parseInt(n21.getText().toString());
+        int a22 = Integer.parseInt(n22.getText().toString());
+        int a23 = Integer.parseInt(n23.getText().toString());
+        int a24 = Integer.parseInt(n24.getText().toString());
+        int a31 = Integer.parseInt(n31.getText().toString());
+        int a32 = Integer.parseInt(n32.getText().toString());
+        int a33 = Integer.parseInt(n33.getText().toString());
+        int a34 = Integer.parseInt(n34.getText().toString());
+        int a41 = Integer.parseInt(n41.getText().toString());
+        int a42 = Integer.parseInt(n42.getText().toString());
+        int a43 = Integer.parseInt(n43.getText().toString());
+        int a44 = Integer.parseInt(n44.getText().toString());
+
+
+
+        if ((a11==4)&&(a21==1)){
+
+            //t1.setText("aa aa");
+        }
 
 
         //t1.setText(Integer.toString(sum));

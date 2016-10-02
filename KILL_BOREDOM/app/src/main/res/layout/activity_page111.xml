@@ -33,7 +33,8 @@
         android:layout_marginTop="37dp"
         android:id="@+id/checkBox2"
         android:background="@color/FF1C213F"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:checked="true" />
 
     <CheckBox
         android:text="COMPLETE YOUR APP"
@@ -45,7 +46,8 @@
         android:layout_marginTop="41dp"
         android:id="@+id/checkBox3"
         android:background="@color/FF1C213F"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:checked="true" />
 
     <CheckBox
         android:text="WIN A PRIZE :D"

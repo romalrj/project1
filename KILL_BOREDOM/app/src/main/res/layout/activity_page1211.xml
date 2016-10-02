@@ -138,7 +138,7 @@
         android:layout_alignBottom="@+id/n12"
         android:layout_alignLeft="@+id/n41"
         android:layout_alignStart="@+id/n41"
-        android:hint="0" />
+        android:text="1" />
 
     <EditText
         android:layout_width="wrap_content"
